@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        text-align: center;
+      }
+
+      img {
+        width: 400px;
+        margin: 10px 0;
+      }
+
+      input {
+        width: 500px;
+        padding: 12px;
+        border: none;
+        color: rgb(96, 96, 96);
+        border-radius: 16px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        margin-bottom: 15px;
+      }
+
+      input:focus {
+        outline: none;
+      }
+
+      .search-button {
+        margin-right: 10px;
+      }
+
+      .google-button {
+        border: none;
+        background-color: rgb(228, 228, 228);
+        cursor: pointer;
+        padding: 10px 12px;
+        transition: cursor 2s;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img class="google-logo" src="images/google-seach.webp" />
+    </div>
+    <div>
+      <input type="text" placeholder="Search Google or type a URL" />
+    </div>
+    <div>
+      <button class="google-button search-button">Google Search</button>
+      <button class="google-button">I'm Feeling Lucky</button>
+    </div>
+  </body>
+</html>

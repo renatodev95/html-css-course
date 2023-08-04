@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .pagination-btn {
+      padding: 10px 10px;
+      margin: 0 8px;
+    }
+
+    a {
+      margin: 0 5px;
+    }
+
+    .div1 {
+      margin-bottom: 30px;
+    }
+
+    .div2 {
+      margin-bottom: 10px;
+    }
+
+    .stretch-btn {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      cursor: pointer;
+      transition: padding 0.5s, font-size 0.5s;
+    }
+
+    .stretch-btn:hover {
+      padding: 15px 30px;
+      font-size: 20px;
+    }
+
+    .shadow-btn {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      cursor: pointer;
+      transition: box-shadow 0.2s,
+        margin-top 0.2s,
+        margin-left 0.2s;
+    }
+
+    .shadow-btn:hover {
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+    }
+
+    .shadow-btn:active {
+      margin-top: 3px;
+      margin-left: 3px;
+      box-shadow: 0 0 0 0;
+    }
+
+    .margin-padding-together {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      transition: padding 0.5s;
+      margin-right: 8px;
+    }
+
+    .margin-padding-together:hover {
+      padding: 6px 24px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="div1">
+    <button class="pagination-btn">Back</button>
+    <a href="">1</a>
+    <a href="">2</a>
+    <a href="">3</a>
+    <a href="">4</a>
+    <a href="">5</a>
+    <button class="pagination-btn">Next</button>
+  </div>
+
+  <hr>
+
+  <div class="div2">
+    <button class="stretch-btn">Stretch</button>
+  </div>
+
+  <hr>
+
+  <div class="div3">
+    <button class="shadow-btn">Shadow</button>
+  </div>
+
+  <hr>
+
+  <div class="div4">
+    <button class="margin-padding-together">One</button>
+    <button class="margin-padding-together">Two</button>
+    <button class="margin-padding-together">Three</button>
+  </div>
+</body>
+
+</html>

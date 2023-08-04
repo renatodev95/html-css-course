@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Roboto;
+    }
+
+    input {
+      margin-bottom: 20px;
+      display: block;
+    }
+
+    .search-bar1 {
+      border-style: solid;
+      border-radius: 5px;
+      padding: 10px;
+      border-width: 1px;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    .search-bar2 {
+      border: none;
+      border-radius: 20px;
+      width: 300px;
+      padding: 10px;
+      border-width: 1px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    p {
+      color: rgb(96, 96, 96);
+      width: 400px;
+    }
+
+    .search-bar3 {
+      height: 30px;
+    }
+
+    .agree-btn {
+      padding: 10px;
+      border: none;
+      border-radius: 18px;
+      background-color: rgb(6, 111, 231);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 30px;
+    }
+
+    .search-bar3,
+    .agree-btn {
+      width: 400px;
+    }
+
+    img {
+      width: 50px;
+      height: 45px;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
+
+    .tweet-input {
+      display: inline-block;
+      vertical-align: middle;
+      margin-bottom: 0;
+      padding: 10px;
+      border: none;
+    }
+
+    .tweet-btn {
+      border: none;
+      color: white;
+      padding: 9px 16px;
+      font-weight: bold;
+      font-size: 15px;
+      background-color: rgb(65, 175, 248);
+      border-radius: 18px;
+      cursor: pointer;
+      margin-left: 8px;
+      vertical-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <input class="search-bar1" type="text" placeholder="Search">
+  <input class="search-bar2" type="text" placeholder="Search Google or type a URL">
+  <p>Email</p>
+  <input type="text" class="search-bar3">
+  <p>By clicking Agree & Join, you agree to the Privace Policy.</p>
+  <button class="agree-btn">Agree & Join</button>
+  <br>
+  <img src="images/cat-cover.jpg">
+  <input class="tweet-input" type="text" placeholder="What's happening?">
+  <button class="tweet-btn">Tweet</button>
+</body>
+
+</html>

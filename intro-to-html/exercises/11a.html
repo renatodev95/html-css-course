@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .container{
+      display: grid;
+      grid-template-columns: 200px 75px;
+      margin-bottom: 30px;
+    }
+
+    .container2{
+      display: grid;
+      margin-bottom: 30px;
+      grid-template-columns: 50px 1fr 75px;
+    }
+
+    .container3{
+      display: grid;
+      margin-bottom: 30px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      row-gap: 10px;
+      column-gap: 20px;
+    }
+
+    .first{
+      background-color: lightblue;
+    }
+
+    .second{
+      background-color: lightpink;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="first">200px</div>
+    <div class="second">75px</div>
+  </div>
+
+  <div class="container2">
+    <div class="first">col1</div>
+    <div class="second">col2</div>
+    <div class="first">col3</div>
+  </div>
+
+  <div class="container3">
+    <div class="second">col1</div>
+    <div class="second">col2</div>
+    <div class="second">col1</div>
+    <div class="second">col2</div>
+    <div class="second">col1</div>
+    <div class="second">col2</div>
+    <div class="second">col1</div>
+    <div class="second">col2</div>
+  </div>
+</body>
+</html>
