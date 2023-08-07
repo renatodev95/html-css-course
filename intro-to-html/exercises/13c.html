@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        font-family: Arial;
+        margin: 0;
+      }
+
+      .img-profile {
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        object-fit: cover;
+      }
+
+      .inbox-email {
+        display: flex;
+      }
+
+      .email-header{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .container {
+        display: inline-block;
+        padding: 15px;
+        border-radius: 3px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+      }
+
+      .email-card{
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+
+      .container-img-profile{
+        margin-right: 8px;
+        display: flex; 
+        align-items: center;
+      }
+
+      .email-title{
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 3px;
+      }
+
+      .general-text{
+        font-size: 14px;
+        margin-top: 3px;
+      }
+
+      .gray-text{
+        color: rgb(102, 102, 102);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header gray-text">
+        <p>ALL INBOXES</p>
+      </div>
+      
+      <div class="email-card">
+        <div class="inbox-email">
+          <div class="container-img-profile">
+            <img class="img-profile" src="images/cat-cover.jpg" />
+          </div>
+          <div>
+            <div class="email-header">
+              <p class="email-title">Chewy Promotions</p>
+              <p class="general-text gray-text">4:58 PM</p>
+            </div>
+            <p class="general-text"><strong>Biggest sales of the year!</strong></p>
+            <p class="general-text gray-text">Hey there! We're writing to tell you about our...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="email-card">
+        <div class="inbox-email">
+          <div class="container-img-profile">
+            <img class="img-profile" src="images/dog-cover.jpg" />
+          </div>
+          <div>
+            <div class="email-header">
+              <p class="email-title">Best Buy</p>
+              <p class="general-text gray-text">12:32 PM</p>
+            </div>
+            <p class="general-text"><strong>Your Best Buy eReceipt</strong></p>
+            <p class="general-text gray-text">Thank you for shopping at Best Buy, here is...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="email-card">
+        <div class="inbox-email">
+          <div class="container-img-profile">
+            <img class="img-profile" src="images/cat-cover.jpg" />
+          </div>
+          <div>
+            <div class="email-header">
+              <p class="email-title">Chewy Promotions</p>
+              <p class="general-text gray-text">9:00 AM</p>
+            </div>
+            <p class="general-text"><strong>Biggest sales of the year!</strong></p>
+            <p class="general-text gray-text">Brand new movies and shows, old favorites...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

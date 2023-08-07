@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .img-profile {
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+      }
+
+      .container {
+        display: flex;
+        width: 400px;
+        margin: 0;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      }
+
+      .container-img-profile {
+        margin-right: 8px;
+        display: flex;
+        vertical-align: top;
+      }
+
+      .tweet-header {
+        display: flex;
+        margin-bottom: 6px;
+      }
+
+      .tweet-header p:first-child {
+        margin-right: 6px;
+        font-weight: bold;
+      }
+
+      .tweet-header p:nth-child(2) {
+        color: rgb(96, 96, 96);
+      }
+
+      .tweet-text{
+        margin-bottom: 10px;
+      }
+
+      .card-link{
+        display: flex;
+        border-width: 1px;
+        border-color: rgb(177, 177, 177);
+        border-style: solid;
+        border-radius: 10px;
+      }
+
+      .link-cover{
+        background-color: rgb(177, 177, 177);
+        width: 80px;
+        border-radius: 10px 0 0 10px;
+        border-width: 1px;
+        border-color: rgb(177, 177, 177);
+        border-style: solid;
+        margin-left: -1px;
+      }
+
+      .link-info{
+        margin-left: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+      }
+
+      .link-info p{
+        width: 220px;
+        margin-bottom: 5px;
+      }
+
+      .link-info p:first-child{
+        color: rgb(110, 110, 110);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-img-profile">
+        <img class="img-profile" src="images/cat-cover.jpg" alt="" />
+      </div>
+      <div>
+        <div class="tweet-header">
+          <p>supersimple.dev</p>
+          <p>@SuperSimpleDev</p>
+        </div>
+        <div class="tweet-text">
+          <p>
+            What is backend web development? A complete overview. New video is
+            up!
+          </p>
+        </div>
+        <div class="card-link">
+          <div class="link-cover">
+
+          </div>
+          <div class="link-info">
+            <p>youtube.com</p>
+            <p>Backend web development - a complete overview (2021)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
