@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        height: 300px;
+        width: 300px;
+      }
+
+      .clothing-container {
+        position: relative;
+        display: inline-block;
+      }
+
+      .percent-promotion {
+        position: absolute;
+        top: 5px;
+        right: 0px;
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 3px 6px;
+      }
+
+      .add-to-cart-container {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        height: 100px;
+        background-color: rgba(216, 216, 216, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      button {
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        border-radius: 1px;
+        padding: 5px 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="clothing-container">
+      <img src="images/img-clothing.avif" alt="" />
+      <div class="percent-promotion"><span>20% OFF</span></div>
+      <div class="add-to-cart-container">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>
