@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 3000px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      img {
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+
+      p {
+        font-weight: bold;
+      }
+
+      .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: rgb(228, 228, 228);
+      }
+
+      .flex {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .profile-div {
+        display: flex;
+      }
+
+      .add {
+        color: white;
+        background-color: rgb(24, 142, 238);
+        padding: 10px;
+      }
+
+      .buttons{
+        border: none;
+        border-radius: 3px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+      }
+
+      .message {
+        width: 80px;
+        margin-left: 6px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="flex">
+        <div class="profile-div">
+          <img src="images/dog-cover.jpg" />
+          <p>Luffyto Dog</p>
+        </div>
+        <div class="buttons">
+          <button class="buttons add">Add Friend</button>
+          <button class="buttons message">Message</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
