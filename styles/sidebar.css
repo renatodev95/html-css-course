@@ -28,6 +28,16 @@
 }
 
 .sidebar-link div {
-  font-family: Roboto, Arial;
   font-size: 10px;
+}
+
+@media (min-width: 1000px) {
+  .sidebar-link div {
+    font-size: 14px;
+  }
+  
+  .sidebar {
+    width: 95px;
+    white-space: nowrap;
+  }
 }
